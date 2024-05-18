@@ -76,9 +76,9 @@ This will theoratically work on Ventura and below.
 | **Camera & Microphone**   |  ✅ |
 | **Sleep** | ✅|
 | **Power Management**   |  ✅ |
-| **Software Updates**   |  🤔 |
-| **iServices (iMessage & FaceTime)**   |  🤔 |
-| **AirDrop & Continuity**   |  🤔 |
+| **Software Updates**   |  ✅*# |
+| **iServices (iMessage & FaceTime)**   |  ✅ |
+| **AirDrop & Continuity**   |  ✅ |
 | **DRM (Apple Music & TV)**   |  ❎ *! |
 | **HDMI**  |  ✅ |
 
@@ -88,6 +88,10 @@ This will theoratically work on Ventura and below.
 
 > *! DRM would not work on Integrated Intel GPUs. Descrete GPUs are required for DRM to work.
 Apple Music can still play songs, but not with Dolby Atmos or the fancy Hi-Res Lossless Audio Quality. Apple TV can play videos just fine.
+
+------------
+
+> *# Update macOS with caution. May cause your system to not boot up or break some features. Always check if the OpenCore version is compatible with the update.
 
 ------------
 
