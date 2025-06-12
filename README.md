@@ -26,11 +26,17 @@
 
 ### About this EFI
 
-**OpenCore Version:** DBG-099-2024-03-11
+**OpenCore Version:** RELEASE-099-2024-03-11
 
-**Tested macOS version:** macOS Ventura [14.5]
+**Tested macOS version(s):**
 
-This will theoratically work on Ventura and below.
+- Big Sur [11] (Works, but most apps and services like Homebrew does not work anymore)
+- Monterey [12.7.4] (Honestly, this is the sweet spot!)
+- Ventura [13.3] (Works great, specially with Continuity Camera!)
+- Sonoma [14.5] (Has heating issues)
+- Sequoia [15] (Really laggy, wouldn't recommend)
+
+This will theoratically work on Catalina and below.
 
 ------------
 
@@ -42,11 +48,11 @@ This will theoratically work on Ventura and below.
 |  **Hardware**  |  **Details**  |
 | ------------ | ------------ |
 |  **CPU** |  i5-8250u |
-| **GPU** | Intel UHD 620|
+| **GPU** | Intel UHD 620 |
 |  **Memory** |  16GB DDR4 |
 | **Storage** | Samsung M.2|
-| **Network Card** | Intel |
-| **Audio** | alcid=11 |
+| **Network Card** | BCM94360NG (Switched from Intel Dual Band Wireless-AC 3165) |
+| **Audio** | ALC257 |
 
 
 ------------
@@ -65,7 +71,7 @@ This will theoratically work on Ventura and below.
 
 | Feature  | Is it working?  |
 | ------------ | ------------ |
-|  **WiFi & Bluetooth**  |  ✅ * |
+|  **WiFi & Bluetooth**  |  ✅ *1 |
 | **Audio (Speaker)**   |  ✅ |
 | **Audio (Jack)**   |  ✅ |
 | **Graphics Acceleration**   |   ✅|
@@ -82,12 +88,12 @@ This will theoratically work on Ventura and below.
 | **DRM (Apple Music & TV)**   |  ❎ *! |
 | **HDMI**  |  ✅ |
 
-> ** I had been using macOS Sonoma 14.5, and the latest Intel Pre-Release WiFi drivers only support up to 14.4. It is really buggy. If you want stable WiFi and Bluetooth, I suggest you should install macOS Ventura
+> *1 - I had switched to an Broadcom Chip. Previous Releases like [Version 2](https://github.com/pisknk/ThinkPad-L380-OpenCore/releases/tag/v2) still has Intel Drivers.
 
 ------------
 
 > *! DRM would not work on Integrated Intel GPUs. Descrete GPUs are required for DRM to work.
-Apple Music can still play songs, but not with Dolby Atmos or the fancy Hi-Res Lossless Audio Quality. Apple TV can play videos just fine.
+Apple Music can still play songs, but not with Dolby Atmos or the fancy Hi-Res Lossless Audio Quality. Apple TV can play videos just fine. There is a Pre-Release EFI that brings Apple Lossless and Dolby Atmos Audio at the expense of Energy Management.
 
 ------------
 
