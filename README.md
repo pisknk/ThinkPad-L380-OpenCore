@@ -26,15 +26,16 @@
 
 ### About this EFI
 
-**OpenCore Version:** RELEASE-099-2024-03-11
+**OpenCore Version:** 1.0.5 [RELEASE]
 
 **Tested macOS version(s):**
 
 - Big Sur [11] (Works, but most apps and services like Homebrew does not work anymore)
 - Monterey [12.7.4] (Honestly, this is the sweet spot!)
 - Ventura [13.3] (Works great, specially with Continuity Camera!)
-- Sonoma [14.5] (Has heating issues)
-- Sequoia [15] (Really laggy, wouldn't recommend)
+- Sonoma [14.5]
+- Sequoia [15]
+- Tahoe [26]
 
 This will theoratically work on Catalina and below.
 
@@ -84,8 +85,10 @@ This will theoratically work on Catalina and below.
 | **Power Management**   |  ✅ |
 | **Software Updates**   |  ✅*# |
 | **iServices (iMessage & FaceTime)**   |  ✅ |
+| **Apple Music - Dolby Atmos**   |  ✅ |
+| **Apple Music - HiRes-Lossless Audio**   |  ✅ |
 | **AirDrop & Continuity**   |  ✅ |
-| **DRM (Apple Music & TV)**   |  ❎ *! |
+| **DRM (Apple TV)**   |  ❎ *! |
 | **HDMI**  |  ✅ |
 
 > *1 - I had switched to an Broadcom Chip. Previous Releases like [Version 2](https://github.com/pisknk/ThinkPad-L380-OpenCore/releases/tag/v2) still has Intel Drivers.
