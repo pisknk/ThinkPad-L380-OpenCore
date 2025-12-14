@@ -91,7 +91,7 @@ This will theoratically work on Catalina and below.
 | **DRM (Apple TV)**   |  ❎ *! |
 | **HDMI**  |  ✅ |
 
-> *1 - I had switched to an Broadcom Chip. Previous Releases like [Version 2](https://github.com/pisknk/ThinkPad-L380-OpenCore/releases/tag/v2) still has Intel Drivers.
+> *1 - I had switched to an Broadcom Chip. Previous Releases like [Version 3](https://github.com/pisknk/ThinkPad-L380-OpenCore/releases/tag/v3) still has Intel Drivers.
 
 ------------
 
@@ -115,11 +115,11 @@ Apple Music can still play songs, but not with Dolby Atmos or the fancy Hi-Res L
 
 **Tutorials:**
 
-🪟 [Create macOS Installer using Windows](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.htmlhttp:// "Create macOS Installer using Windows")
+🪟 [Create macOS Installer using Windows](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos)
 
-🐧 [Create macOS Installer using Linux](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/linux-install.htmlhttp:// "Create macOS Installer using Linux")
+🐧 [Create macOS Installer using Linux](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/linux-install.html#downloading-macos)
 
-🍎 [Create macOS Installer using a Mac](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html "Create macOS Installer using a Mac")
+🍎 [Create macOS Installer using a Mac](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os)
 
 
 ------------
