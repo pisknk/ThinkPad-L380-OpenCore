@@ -91,7 +91,7 @@ This will theoratically work on Catalina and below.
 | **DRM (Apple TV)**   |  ❎ *! |
 | **HDMI**  |  ✅ |
 
-> *1 - I had switched to an Broadcom Chip. Previous Releases like [Version 2](https://github.com/pisknk/ThinkPad-L380-OpenCore/releases/tag/v2) still has Intel Drivers.
+> *1 - I had switched to an Broadcom Chip. Previous Releases like [Version 3](https://github.com/pisknk/ThinkPad-L380-OpenCore/releases/tag/v3) still has Intel Drivers.
 
 ------------
 
