@@ -115,11 +115,11 @@ Apple Music can still play songs, but not with Dolby Atmos or the fancy Hi-Res L
 
 **Tutorials:**
 
-🪟 [Create macOS Installer using Windows](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.htmlhttp:// "Create macOS Installer using Windows")
+🪟 [Create macOS Installer using Windows](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos)
 
-🐧 [Create macOS Installer using Linux](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/linux-install.htmlhttp:// "Create macOS Installer using Linux")
+🐧 [Create macOS Installer using Linux](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/linux-install.html#downloading-macos)
 
-🍎 [Create macOS Installer using a Mac](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html "Create macOS Installer using a Mac")
+🍎 [Create macOS Installer using a Mac](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os)
 
 
 ------------
